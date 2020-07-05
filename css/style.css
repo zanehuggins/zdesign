@@ -210,6 +210,10 @@ img{
     margin-top: 26px;
     margin-bottom: 75px; }
 
+  article {
+    margin-top: 10px !important;
+    float: right !important; }
+
   nav {
     position: fixed !important; }
     nav li {
@@ -226,10 +230,6 @@ img{
 
   .main-container {
     padding-right: 1em !important; }
-
-  article {
-    margin-top: 10px !important;
-    float: right !important; }
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;

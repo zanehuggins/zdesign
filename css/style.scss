@@ -282,9 +282,15 @@ main{
 }
 
 @media(min-width: 768px){
+
   .logo-container{
     margin-top: 26px;
     margin-bottom: 75px;
+  }
+
+  article{
+    margin-top: 10px!important;
+    float: right!important;
   }
 
 nav{
@@ -316,11 +322,6 @@ nav{
 
 .main-container{
   padding-right: 1em!important;
-}
-
-article{
-  margin-top: 10px!important;
-  float: right!important;
 }
 
 main{
