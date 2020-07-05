@@ -210,11 +210,17 @@ img{
     margin-top: 26px;
     margin-bottom: 75px; }
 
+  nav {
+    position: fixed !important; }
+    nav li {
+      margin-top: 16px; }
+
   .main-container {
     padding-right: 1em !important; }
 
   article {
-    margin-top: 10px !important; }
+    margin-top: 10px !important;
+    float: right !important; }
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;

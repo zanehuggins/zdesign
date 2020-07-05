@@ -293,12 +293,20 @@ main{
     margin-bottom: 75px;
   }
 
+nav{
+  position: fixed!important;
+  li{
+    margin-top: 16px;
+  }
+}
+
 .main-container{
   padding-right: 1em!important;
 }
 
 article{
   margin-top: 10px!important;
+  float: right!important;
 }
 
 main{
