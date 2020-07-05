@@ -281,6 +281,20 @@ main{
   }
 }
 
+@media(min-width: 768px){
+  .logo-container{
+    margin-top: 26px;
+    margin-bottom: 75px;
+  }
+
+nav{
+  position: fixed!important;
+  li{
+    margin-top: 16px;
+  }
+}
+}
+
 
 
 

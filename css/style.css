@@ -205,6 +205,15 @@ img{
   .item-container-9 {
     grid-column: 5/7 !important;
     position: relative; } }
+@media (min-width: 768px) {
+  .logo-container {
+    margin-top: 26px;
+    margin-bottom: 75px; }
+
+  nav {
+    position: fixed !important; }
+    nav li {
+      margin-top: 16px; } }
 @media (min-width: 1200px) {
   .logo-container {
     margin-top: 26px;
