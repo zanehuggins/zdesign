@@ -135,8 +135,7 @@ main {
     grid-column: 3 / 5;
     position: relative; }
   main div {
-    transition: .4s ease;
-    transition-delay: .05s; }
+    transition: .4s ease; }
   main div:hover .title-container {
     opacity: 1;
     z-index: 10; }
