@@ -128,14 +128,13 @@ main{
     background-color: black;
     position: absolute;
     opacity: 0;
-    z-index: 1!important;
+    z-index: -10;
 
     a{
       height: 100%;
       width: 100%;
       position: absolute;
-      z-index: -10!important;
-      transition-delay: 1s;
+      z-index: 1!important;
     }
 
     h2{
@@ -198,16 +197,16 @@ main{
 
 div{
   transition: .4s ease;
-  transition-delay: .2s;
+  transition-delay: .05s;
 }
 div:hover{
+  h2{
+
+  }
   .title-container{
     opacity: 1;
-    a{
-      z-index: 5;
-      opacity: 1;
-      transition-delay: 1s!important;
-    }
+    z-index: 10;
+
   }
 }
 } /* CLOSES MAIN */
