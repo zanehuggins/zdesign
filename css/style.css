@@ -136,7 +136,7 @@ main {
     position: relative; }
   main div {
     transition: .4s ease;
-    transition-delay: .1s; }
+    transition-delay: .2s; }
   main div:hover .title-container {
     opacity: 1; }
     main div:hover .title-container a {
