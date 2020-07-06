@@ -94,13 +94,14 @@ main {
     width: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0; }
+    opacity: 0;
+    z-index: 1 !important; }
     main .title-container a {
       height: 100%;
       width: 100%;
-      z-index: 10;
       position: absolute;
-      display: none; }
+      z-index: -10 !important;
+      transition-delay: 1s; }
     main .title-container h2 {
       color: white;
       text-align: center;
@@ -140,7 +141,8 @@ main {
   main div:hover .title-container {
     opacity: 1; }
     main div:hover .title-container a {
-      display: block; }
+      z-index: 5;
+      opacity: 0; }
 
 /* CLOSES MAIN */
 .featured-blogs {
