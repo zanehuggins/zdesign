@@ -8,6 +8,9 @@ h3, h4 {
   font-family: acherus_grotesquelight;
   letter-spacing: .1em; }
 
+p {
+  font-family: acherus_grotesque_regularRg; }
+
 .col-fluid {
   padding-right: 10px; }
 
@@ -39,9 +42,11 @@ article {
   background-color: white;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16); }
   article h1 {
-    margin-top: 16px; }
+    margin-top: 32px;
+    font-size: 1.75em;
+    letter-spacing: .10em; }
   article p {
-    padding-bottom: 16px; }
+    padding-bottom: 32px; }
 
 footer ul {
   width: 100%;
@@ -73,7 +78,8 @@ main {
   main h2 {
     grid-column: 1 / 5;
     grid-row: 1;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    letter-spacing: .10em; }
   main .item-container-1 {
     grid-column: 1 / 5;
     position: relative;
