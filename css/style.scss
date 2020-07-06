@@ -6,6 +6,8 @@ body{
 
 h1, h2{
   font-family: acherus_grotesquebold;
+  font-size: 1.5em;
+  letter-spacing: .10em;
 }
 
 h3, h4{
@@ -19,6 +21,7 @@ p{
 
 .col-fluid{
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 nav{
@@ -89,7 +92,6 @@ footer{
   margin-bottom: 10px;
   background-color: white;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .16);
-  padding: 1em 0 0 0;
 }
 
 main{
@@ -102,8 +104,7 @@ main{
   h2{
     grid-column: 1 / 5;
     grid-row: 1;
-    font-size: 1.5em;
-    letter-spacing: .10em;
+    margin-top: 32px;
   }
 
   .item-container-1{
@@ -201,6 +202,13 @@ div:hover{
   }
 }
 } /* CLOSES MAIN */
+
+.featured-blogs{
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, .16);
+  padding: 1em 0 0 0;
+}
 
 /* BOOTSTRAP
 .item-container{

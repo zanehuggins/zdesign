@@ -2,7 +2,9 @@ body {
   background-color: #F2F2F2; }
 
 h1, h2 {
-  font-family: acherus_grotesquebold; }
+  font-family: acherus_grotesquebold;
+  font-size: 1.5em;
+  letter-spacing: .10em; }
 
 h3, h4 {
   font-family: acherus_grotesquelight;
@@ -12,7 +14,8 @@ p {
   font-family: acherus_grotesque_regularRg; }
 
 .col-fluid {
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 nav {
   padding: 16px;
@@ -65,8 +68,7 @@ footer ul {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
-  padding: 1em 0 0 0; }
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16); }
 
 main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -78,8 +80,7 @@ main {
   main h2 {
     grid-column: 1 / 5;
     grid-row: 1;
-    font-size: 1.5em;
-    letter-spacing: .10em; }
+    margin-top: 32px; }
   main .item-container-1 {
     grid-column: 1 / 5;
     position: relative;
@@ -138,6 +139,12 @@ main {
     opacity: 1; }
 
 /* CLOSES MAIN */
+.featured-blogs {
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+  padding: 1em 0 0 0; }
+
 /* BOOTSTRAP
 .item-container{
   position: relative;
