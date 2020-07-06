@@ -133,6 +133,7 @@ main{
       width: 100%;
       z-index: 10;
       position: absolute;
+      display: none;
     }
 
     h2{
@@ -195,10 +196,14 @@ main{
 
 div{
   transition: .4s ease;
+  transition-delay: .1s;
 }
 div:hover{
   .title-container{
     opacity: 1;
+    a{
+      display: block;
+    }
   }
 }
 } /* CLOSES MAIN */

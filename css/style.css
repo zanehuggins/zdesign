@@ -99,7 +99,8 @@ main {
       height: 100%;
       width: 100%;
       z-index: 10;
-      position: absolute; }
+      position: absolute;
+      display: none; }
     main .title-container h2 {
       color: white;
       text-align: center;
@@ -134,9 +135,12 @@ main {
     grid-column: 3 / 5;
     position: relative; }
   main div {
-    transition: .4s ease; }
+    transition: .4s ease;
+    transition-delay: .1s; }
   main div:hover .title-container {
     opacity: 1; }
+    main div:hover .title-container a {
+      display: block; }
 
 /* CLOSES MAIN */
 .featured-blogs {
