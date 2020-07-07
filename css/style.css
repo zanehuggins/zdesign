@@ -322,6 +322,10 @@ img{
     grid-column: 5/7 !important;
     position: relative; } }
 @media (min-width: 992px) {
+  #modal {
+    min-width: 80vw !important;
+    margin-left: 17.5vw; }
+
   .logo-container {
     margin-top: 26px;
     margin-bottom: 75px;
