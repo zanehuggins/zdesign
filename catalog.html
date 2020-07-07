@@ -11,11 +11,14 @@
 <link href="css/fonts/stylesheet.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
 </head>
 
 <body>
 
-<div class="col-fluid"> <!-- Opens Grid Container -->
+<div class="container-fluid"> <!-- Opens Grid Container -->
 
   <nav class="col-12 col-lg-2 float-left">
     <ul class="col-12 col-lg-6 offset-lg-3 float-left p-0">
@@ -36,7 +39,7 @@
 <article class="col-12 col-lg-10 float-left float-lg-right">
 
 <h1 class="col-12 col-lg-10 offset-lg-1 float-left">
-CATALOG
+Z₂ DESIGN
 </h1>
 
 <p class="col-12 col-lg-10 offset-lg-1 float-left">
@@ -46,11 +49,11 @@ Functional and focused designs for intentional people. In throw-away society fil
 </article>
 
 <div class="main-container col-lg-10 float-left float-lg-right">
-  <main class="col-12 col-lg-10 offset-lg-1">
+  <main class="col-12 col-lg-12 ">
 
 <h2>FEATURED PRODUCTS</h2>
 
-<div class="item-container-1">
+<div class="item-container-1" data-toggle="modal" data-target="#exampleModal">
   <div class="title-container">
     <a href="#"></a>
     <h2>HEROES</h2>
@@ -105,19 +108,183 @@ Functional and focused designs for intentional people. In throw-away society fil
 <img src="images/heroes/heroes-1.png" alt="#">
 </div>
 
+
   </main>
 </div>
 
-<div class="featured-blogs col-12 col-lg-10 float-left float-lg-right">
-  <div class="col-12 float-left">
+<!--
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+ -->
 
-<h2 class="col-12 col-lg-10 offset-lg-1 float-left">
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+
+
+<!-- HEROES TYPEFACE -->
+        <div id='product-component-1594140064166'></div>
+      <script type="text/javascript">
+      /*<![CDATA[*/
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
+        }
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
+        }
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'z2-design-studio.myshopify.com',
+            storefrontAccessToken: '6cf677fb0540a098e4f782c9b3a29eb2',
+          });
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              id: '5422125383844',
+              node: document.getElementById('product-component-1594140064166'),
+              moneyFormat: '%24%7B%7Bamount%7D%7D',
+              options: {
+        "product": {
+          "styles": {
+            "product": {
+              "@media (min-width: 601px)": {
+                "max-width": "calc(25% - 20px)",
+                "margin-left": "20px",
+                "margin-bottom": "50px"
+              }
+            }
+          },
+          "contents": {
+            "img": false,
+            "title": false,
+            "price": false
+          },
+          "text": {
+            "button": "Add to cart"
+          }
+        },
+        "productSet": {
+          "styles": {
+            "products": {
+              "@media (min-width: 601px)": {
+                "margin-left": "-20px"
+              }
+            }
+          }
+        },
+        "modalProduct": {
+          "contents": {
+            "img": false,
+            "imgWithCarousel": true,
+            "button": false,
+            "buttonWithQuantity": true
+          },
+          "styles": {
+            "product": {
+              "@media (min-width: 601px)": {
+                "max-width": "100%",
+                "margin-left": "0px",
+                "margin-bottom": "0px"
+              }
+            }
+          },
+          "text": {
+            "button": "Add to cart"
+          }
+        },
+        "cart": {
+          "text": {
+            "total": "Subtotal",
+            "button": "Checkout"
+          }
+        }
+      },
+            });
+          });
+        }
+      })();
+      /*]]>*/
+      </script>
+
+        <!-- END HEROES TYPEFACE -->
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="featured-blogs-container col-12 col-lg-10 float-left float-lg-right">
+  <div class="featured-blogs float-left" id="featured-blogs">
+
+<h2>
 RECENT BLOG POSTS
 </h2>
 
-<p class="col-12 col-lg-10 offset-lg-1 float-left">
-Functional and focused designs for intentional people. In throw-away society filled with endless options, we believe in remaining focused and goal oriented, and understand that reason we choose quality over quantity.
-</p>
+<div class="item-container-1">
+  <div class="title-container">
+    <a href="#"></a>
+    <h2>HEROES</h2>
+    <h3>Font Family</h3>
+
+  </div>
+<img src="images/heroes/heroes-1.png" alt="Heroes Typeface Overview">
+</div>
+
+<div class="item-container-2">
+  <div class="title-container">
+    <a href="#"></a>
+    <h2>OVERLAP</h2>
+    <h3>Font Family</h3>
+  </div>
+<img src="images/overlap/overlap.png" alt="Overlap Typeface Overview">
+</div>
+
+<div class="item-container-3">
+  <div class="title-container">
+    <a href="#"></a>
+    <h2>CANDICONS</h2>
+    <h3>Icon Set</h3>
+  </div>
+<img src="images/heroes/heroes-1.png" alt="#">
+</div>
+
+<div class="item-container-4">
+  <div class="title-container">
+    <a href="#"></a>
+    <h2>CANDICONS</h2>
+    <h3>Icon Set</h3>
+  </div>
+<img src="images/heroes/heroes-1.png" alt="#">
+</div>
+
 </div>
 </div>
 
