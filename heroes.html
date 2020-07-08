@@ -57,10 +57,29 @@
             <textarea placeholder="HEROES BOLD CONDENSED RUGGED" class="heroes-condensed-bold-rugged col-12 p-0"></textarea>
             <textarea placeholder="HEROES BOLD CONDENSED HAND-DRAWN" class="heroes-condensed-bold-rugged col-12 p-0"></textarea>
 
-            <form class="col-12 float-left">
-              <textarea id="a" value="50"></textarea>
-              <output name="x" for="a"></output>
-            </form>
+            <input type="text"
+                 id="myText"
+                 value="Mickey">
+
+          <button type="button"
+                  onclick="myFunction()">
+            Try it
+        </button>
+
+          <p id="demo"></p>
+
+          <script>
+              // Here the value is stored in new variable x
+
+              function myFunction() {
+                  var x =
+                      document.getElementById("myText").value;
+
+                  document.getElementById(
+                    "demo").innerHTML = x;
+              }
+          </script>
+          
 
             </div>
 
