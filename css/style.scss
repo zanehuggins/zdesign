@@ -46,6 +46,7 @@ nav{
   }
 }
 
+
 #active{
   font-family: acherus_grotesquebold;
 }
@@ -56,6 +57,11 @@ nav{
   img{
     width: 50px;
   }
+}
+
+.nav-item{
+  padding: 5px !important;
+  margin-top: 16px;
 }
 
 
