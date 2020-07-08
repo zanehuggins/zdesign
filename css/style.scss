@@ -454,15 +454,46 @@ h2{
 
 }
 
+/* MAIN CATALOG ITEM */
 
-
-/* MODAL */
-#modal{
+.main-catalog-item{
   img{
     padding: 4px;
-  }
-  margin-top: 15px;
 }
+
+textarea{
+  border: none;
+}
+
+}
+
+.catalog-subnav-breadcrumb{
+  list-style: none;
+  margin-top: 32px;
+  li{
+    float: left;
+    a{
+      color: black;
+      transition: ease .4s;
+    }
+    a:hover{
+      text-decoration: none;
+      opacity: .5;
+    }
+.crumbs{
+  font-size: 1.25em;
+  font-family: acherus_grotesquelight;
+}
+  }
+}
+
+.textarea-container{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* CLOSES MAIN CATALOG ITEM */
+
 
 /* CATALOG-SUBNAV */
 #active-category{

@@ -297,12 +297,32 @@ footer ul {
       text-align: center;
       font-size: 1.25em; }
 
-/* MODAL */
-#modal {
-  margin-top: 15px; }
-  #modal img {
-    padding: 4px; }
+/* MAIN CATALOG ITEM */
+.main-catalog-item img {
+  padding: 4px; }
+.main-catalog-item textarea {
+  border: none; }
 
+.catalog-subnav-breadcrumb {
+  list-style: none;
+  margin-top: 32px; }
+  .catalog-subnav-breadcrumb li {
+    float: left; }
+    .catalog-subnav-breadcrumb li a {
+      color: black;
+      transition: ease .4s; }
+    .catalog-subnav-breadcrumb li a:hover {
+      text-decoration: none;
+      opacity: .5; }
+    .catalog-subnav-breadcrumb li .crumbs {
+      font-size: 1.25em;
+      font-family: acherus_grotesquelight; }
+
+.textarea-container {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+/* CLOSES MAIN CATALOG ITEM */
 /* CATALOG-SUBNAV */
 #active-category {
   font-family: acherus_grotesquebold; }
