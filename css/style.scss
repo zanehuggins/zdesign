@@ -227,10 +227,28 @@ div:hover{
   display: grid;
   padding-bottom: 32px;
 
-  h2{
+h1{
+  grid-column: 1 / 5!important;
+  margin-top: 32px;
+}
+  ul{
     grid-column: 1 / 5!important;
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    li{
+      float: left;
+      margin-right: 5vw;
+      a{
+        color: black;
+        transition: ease .4s;
+      }
+      a:hover{
+        text-decoration: none;
+        opacity: .5;
+      }
+    }
 
-    margin-top: 32px;
   }
 
   .item-container-1{
@@ -446,6 +464,12 @@ h2{
   margin-top: 15px;
 }
 
+/* CATALOG-SUBNAV */
+#active-category{
+  font-family: acherus_grotesquebold;
+}
+
+
 @media(min-width: 567px){
 
   .container-fluid{
@@ -657,8 +681,6 @@ nav{
 
   h2{
     grid-column: 1 / 5;
-    grid-row: 1;
-    margin-top: 32px;
   }
 
   img{
