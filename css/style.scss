@@ -461,9 +461,27 @@ h2{
     padding: 4px;
 }
 
+.photo-container{
+  margin-bottom: 80px;
+}
+
 textarea{
   border: none;
+  height: 2.75em;
 }
+
+.heroes-condensed-bold-refined{
+  font-family: heroes-condensed-bold-refined;
+  font-size: 2.75em;
+  line-height: 1em;
+}
+
+.heroes-condensed-bold-rugged{
+  font-family: heroes-condensed-bold-rugged;
+  font-size: 2.75em;
+  line-height: 1em;
+}
+
 
 }
 

@@ -300,8 +300,19 @@ footer ul {
 /* MAIN CATALOG ITEM */
 .main-catalog-item img {
   padding: 4px; }
+.main-catalog-item .photo-container {
+  margin-bottom: 80px; }
 .main-catalog-item textarea {
-  border: none; }
+  border: none;
+  height: 2.75em; }
+.main-catalog-item .heroes-condensed-bold-refined {
+  font-family: heroes-condensed-bold-refined;
+  font-size: 2.75em;
+  line-height: 1em; }
+.main-catalog-item .heroes-condensed-bold-rugged {
+  font-family: heroes-condensed-bold-rugged;
+  font-size: 2.75em;
+  line-height: 1em; }
 
 .catalog-subnav-breadcrumb {
   list-style: none;

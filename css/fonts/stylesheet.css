@@ -34,3 +34,19 @@
     font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'heroes-condensed-bold-refined';
+  src: url('Heroes-CondensedBoldRefined.woff2') format('woff2'),
+       url('Heroes-CondensedBoldRefined.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'heroes-condensed-bold-rugged';
+  src: url('Heroes-CondensedBoldRugged.woff2') format('woff2'),
+       url('Heroes-CondensedBoldRugged.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
