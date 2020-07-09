@@ -150,7 +150,7 @@ footer ul {
   grid-template-rows: auto auto auto auto auto;
   grid-gap: .5em;
   display: grid;
-  padding-bottom: 32px;
+  padding-bottom: 32px !important;
   /* OPENS TITLE-CONTAINER */
   /* CLOSES TITLE-CONTAINER */ }
   #main-catalog h1 {
