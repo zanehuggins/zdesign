@@ -145,7 +145,7 @@ footer ul {
     z-index: 10; }
 
 /* CLOSES MAIN-HOME */
-#main-catalog {
+.main-catalog {
   grid-template-columns: 1fr 1fr 1fr 1fr !important;
   grid-template-rows: auto auto auto auto auto;
   grid-gap: .5em;
@@ -153,91 +153,95 @@ footer ul {
   padding-bottom: 32px !important;
   /* OPENS TITLE-CONTAINER */
   /* CLOSES TITLE-CONTAINER */ }
-  #main-catalog h1 {
+  .main-catalog h1 {
     grid-column: 1/5 !important;
     margin-top: 32px; }
-  #main-catalog ul {
+  .main-catalog ul {
     grid-column: 1/5 !important;
     list-style: none;
     margin-left: 0;
     padding: 0; }
-    #main-catalog ul li {
+    .main-catalog ul li {
       float: left;
       margin-right: 5vw; }
-      #main-catalog ul li a {
+      .main-catalog ul li a {
         color: black;
         transition: ease .4s; }
-      #main-catalog ul li a:hover {
+      .main-catalog ul li a:hover {
         text-decoration: none;
         opacity: .5; }
-  #main-catalog .item-container-1 {
+  .main-catalog .item-container-1 {
     grid-column: 1/3 !important;
     position: relative; }
-  #main-catalog img {
+  .main-catalog img {
     width: 100%;
     height: auto;
     z-index: 0; }
-  #main-catalog .title-container {
+  .main-catalog .title-container {
     height: 100%;
     width: 100%;
     background-color: black;
     position: absolute;
     opacity: 0;
     z-index: -10; }
-    #main-catalog .title-container a {
+    .main-catalog .title-container a {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 1 !important; }
-    #main-catalog .title-container h2 {
+    .main-catalog .title-container h2 {
       color: white;
       text-align: center;
       margin-top: 38%;
       font-size: 1.75em; }
-    #main-catalog .title-container h3 {
+    .main-catalog .title-container h3 {
       color: white;
       text-align: center;
       font-size: 1.25em; }
-  #main-catalog .item-container-2 {
+  .main-catalog .item-container-2 {
     grid-column: 3/5 !important;
     position: relative; }
-  #main-catalog .item-container-3 {
+  .main-catalog .item-container-3 {
     grid-column: 1/3 !important;
     position: relative; }
-  #main-catalog .item-container-4 {
+  .main-catalog .item-container-4 {
     grid-column: 3/5 !important;
     position: relative; }
-  #main-catalog .item-container-5 {
+  .main-catalog .item-container-5 {
     grid-column: 1/3 !important;
     position: relative; }
-  #main-catalog .item-container-6 {
+  .main-catalog .item-container-6 {
     grid-column: 3/5 !important;
     position: relative; }
-  #main-catalog .item-container-7 {
+  .main-catalog .item-container-7 {
     grid-column: 1/3 !important;
     position: relative; }
-  #main-catalog .item-container-8 {
+  .main-catalog .item-container-8 {
     grid-column: 3/5 !important;
     position: relative; }
-  #main-catalog .item-container-9 {
+  .main-catalog .item-container-9 {
     grid-column: 1/3 !important;
     position: relative; }
-  #main-catalog .item-container-10 {
+  .main-catalog .item-container-10 {
     grid-column: 3 / 5 !important;
     position: relative; }
-  #main-catalog .item-container-11 {
+  .main-catalog .item-container-11 {
     grid-column: 1 / 3 !important;
     position: relative; }
-  #main-catalog .item-container-12 {
+  .main-catalog .item-container-12 {
     grid-column: 3 / 5 !important;
     position: relative; }
-  #main-catalog div {
+  .main-catalog div {
     transition: .4s ease; }
-  #main-catalog div:hover .title-container {
+  .main-catalog div:hover .title-container {
     opacity: 1;
     z-index: 10; }
 
 /* CLOSES MAIN-CATALOG */
+#similar-products {
+  padding-top: 32px !important;
+  margin-top: 0 !important; }
+
 .featured-blogs-container {
   padding: 0; }
 
@@ -460,7 +464,7 @@ footer ul {
       position: relative;
       display: none; }
 
-  #main-catalog {
+  .main-catalog {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
     grid-gap: .5em;
@@ -468,67 +472,67 @@ footer ul {
     padding-bottom: 32px;
     /* OPENS TITLE-CONTAINER */
     /* CLOSES TITLE-CONTAINER */ }
-    #main-catalog h2 {
+    .main-catalog h2 {
       grid-column: 1 / 5; }
-    #main-catalog img {
+    .main-catalog img {
       width: 100%;
       height: auto;
       z-index: 0; }
-    #main-catalog .title-container {
+    .main-catalog .title-container {
       height: 100%;
       width: 100%;
       background-color: black;
       position: absolute;
       opacity: 0;
       z-index: -10; }
-      #main-catalog .title-container a {
+      .main-catalog .title-container a {
         height: 100%;
         width: 100%;
         position: absolute;
         z-index: 1 !important; }
-      #main-catalog .title-container h2 {
+      .main-catalog .title-container h2 {
         color: white;
         text-align: center;
         margin-top: 38%;
         font-size: 1.75em; }
-      #main-catalog .title-container h3 {
+      .main-catalog .title-container h3 {
         color: white;
         text-align: center;
         font-size: 1.25em; }
-    #main-catalog .item-container-1 {
+    .main-catalog .item-container-1 {
       grid-column: 1 / 2 !important;
       position: relative; }
-    #main-catalog .item-container-2 {
+    .main-catalog .item-container-2 {
       grid-column: 2 / 3 !important;
       position: relative; }
-    #main-catalog .item-container-3 {
+    .main-catalog .item-container-3 {
       grid-column: 3 / 4 !important;
       position: relative; }
-    #main-catalog .item-container-4 {
+    .main-catalog .item-container-4 {
       grid-column: 4 / 5 !important;
       position: relative; }
-    #main-catalog .item-container-5 {
+    .main-catalog .item-container-5 {
       grid-column: 1 / 2 !important;
       position: relative; }
-    #main-catalog .item-container-6 {
+    .main-catalog .item-container-6 {
       grid-column: 2 / 3 !important;
       position: relative; }
-    #main-catalog .item-container-7 {
+    .main-catalog .item-container-7 {
       grid-column: 3 / 4 !important;
       position: relative; }
-    #main-catalog .item-container-8 {
+    .main-catalog .item-container-8 {
       grid-column: 4 / 5 !important;
       position: relative; }
-    #main-catalog .item-container-9 {
+    .main-catalog .item-container-9 {
       grid-column: 1 / 2 !important;
       position: relative; }
-    #main-catalog .item-container-10 {
+    .main-catalog .item-container-10 {
       grid-column: 2 / 3 !important;
       position: relative; }
-    #main-catalog .item-container-11 {
+    .main-catalog .item-container-11 {
       grid-column: 3 / 4 !important;
       position: relative; }
-    #main-catalog .item-container-12 {
+    .main-catalog .item-container-12 {
       grid-column: 4 / 5 !important;
       position: relative; }
 

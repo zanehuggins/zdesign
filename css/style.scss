@@ -225,7 +225,7 @@ div:hover{
 
 
 
-#main-catalog{
+.main-catalog{
 
   grid-template-columns: 1fr 1fr 1fr 1fr!important;
   grid-template-rows: auto auto auto auto auto;
@@ -377,6 +377,11 @@ div:hover{
   }
 }
 } /* CLOSES MAIN-CATALOG */
+
+#similar-products{
+  padding-top: 32px!important;
+  margin-top: 0!important;
+}
 
 .featured-blogs-container{
 padding: 0;
@@ -726,7 +731,7 @@ nav{
 
 
 
-#main-catalog{
+.main-catalog{
 
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto;
