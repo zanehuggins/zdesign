@@ -430,9 +430,6 @@ footer ul {
       nav .social-media-xl img {
         height: 35px; }
 
-  .main-container {
-    padding-right: 1em !important; }
-
   .main-home {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto auto; }
