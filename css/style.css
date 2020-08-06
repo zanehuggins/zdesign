@@ -72,6 +72,9 @@ footer ul {
   padding: 0 !important;
   overflow: hidden; }
 
+.article-p {
+  padding-bottom: 25px !important; }
+
 .main-home {
   max-width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
